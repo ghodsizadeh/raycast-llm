@@ -5,7 +5,7 @@ To install new commands, follow these steps:
 - Clone the repository to your local machine
 
     ```bash
-    git clone   https://github.com/ghodsizadeh/ray-cast.git 
+    git clone   https://github.com/ghodsizadeh/raycast-llm.git 
     ```
 
 
