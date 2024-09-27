@@ -16,7 +16,7 @@
 # @raycast.authorURL https://raycast.com/mghodsizadeh
 
 # echo "Hello World! Argument1 value: "$1""
-SYSTEM_COMMAND="Fix spelling and grammer of text and use proper words if possible"
+SYSTEM_COMMAND="Fix spelling and grammer of text and use proper words if possible, never change abbreviation"
 if [ -z "$1" ]
 then
     echo "text: $(pbpaste)" | llm -s "$SYSTEM_COMMAND" 
